@@ -13,8 +13,10 @@
 .right_fix {
   float: right;
 }
-#header .top_nav {
+#header {
   background-color: #eee;
+}
+#header .top_nav {
   height: 30px;
 }
 #header .top_nav .top_nav_left {
@@ -47,4 +49,60 @@
 }
 #header .top_nav .top_nav_right ul li a:last-child {
   border: 0;
+}
+#top {
+  height: 120px;
+}
+#top .top_left img {
+  margin-top: 30px;
+}
+#top .top_right form {
+  margin-top: 42px;
+  box-sizing: border-box;
+}
+#top .top_right form input:first-child {
+  box-sizing: border-box;
+  float: left;
+  border: 2px solid #c23030;
+  height: 36px;
+  width: 510px;
+}
+#top .top_right form input:last-child {
+  float: left;
+  color: #eee;
+  height: 36px;
+  width: 80px;
+  border: none;
+  background-color: #c23030;
+}
+#nav_top {
+  border-bottom: 2px solid #ee1717;
+}
+#nav_top .nav_top {
+  height: 48px;
+  background-color: antiquewhite;
+}
+#nav_top .nav_top span {
+  font-weight: bold;
+  font-size: 18px;
+  color: #eee;
+  text-align: center;
+  height: 48px;
+  width: 190px;
+  line-height: 48px;
+  background-color: #ee1717;
+}
+#nav_top .nav_top ul li {
+  line-height: 48px;
+}
+#nav_top .nav_top ul li a {
+  font-size: 16px;
+  margin: 0 20px;
+  line-height: 48xp;
+}
+#content {
+  margin-top: 30px;
+}
+#content .path_nav ul li a {
+  margin: 0 5px;
 }
